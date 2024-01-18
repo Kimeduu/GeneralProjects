@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int food;
+
+int main(int argc, char* argv[])
+{
+
+  printf("Choose your order\n");
+  printf("write the name of the product:\n");
+  
+  printf("\n1. Pizza\n");
+  printf("2. fries\n");
+  printf("3. pop corn\n");
+  scanf("%d", &food);
+  
+  switch (food)
+  {
+    case 1:
+      
+      printf("Your fries is coming");  
+      break;
+      
+    case 2:
+      
+      printf("Your fries is coming");
+      break;
+      
+    case 3:
+      
+      printf("your pop corn is coming");
+      break;
+      
+  }
+  
+  return 0;
+}
