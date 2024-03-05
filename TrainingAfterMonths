@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+int number;
+
+int main(int argc, char* argv[])
+{
+  printf("Sistemas\n\n");
+  printf("1- Windows\n");
+  printf("2-Linux\n");
+  printf("\nchoose your prefered option: \n");
+  
+  scanf("%d", &number);
+  switch(number)
+  {
+    case 1:
+      //caso o simbulo seja 1 faça isso
+      
+      //system("cls")
+      printf("\nIniciando o Windows...\n");
+      break;
+      //finaliza a ação
+  
+      
+     case 2:
+      //system("cls");
+      printf("\nIniciando o Linux...\n");
+      break;
+  }
+  return 0;
+}
