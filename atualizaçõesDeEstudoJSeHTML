@@ -1,0 +1,30 @@
+//atualizações do meu estudo com js e html juntos, além do css:
+
+//exemple of function
+
+function redirecionar(destiono){
+
+  windon.location.href = destino;
+}
+
+//no html é assim:
+
+<img src="qualquer uma ae" onclick="redirecionar('ip do site')"width="80px">
+
+//e é só clicar que a pessoa é redirecionada
+
+------------------------------------------------------------------------------
+
+//another example of functions
+
+__________________________________________________________
+
+let buttonn = document.getElementById("novajanela");
+
+buttonn.addEventListener("click", function() {
+   window.open("ip do site", "_blank");
+});
+
+//e no html:
+
+<button class="click-2" id="novajanela">Abrir nova janela</button>
